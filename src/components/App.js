@@ -9,6 +9,7 @@ class App extends React.Component {
     this.setState({count: this.state.count+1})
   }
   constructor(props){
+    console.log('mounted')
     super(props)
     this.state = {count:0}
     this.handleClick = this.handleClick.bind(this);
